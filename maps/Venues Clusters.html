@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_69464f5b9b894f129d5cd822513924bf {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_69464f5b9b894f129d5cd822513924bf" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_69464f5b9b894f129d5cd822513924bf = L.map(
+                                  'map_69464f5b9b894f129d5cd822513924bf',
+                                  {center: [18.9387711,72.8353355],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_39b42b0661b1473588de042f9f8cc539 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+        
+    
+            var circle_marker_0dc510caf883491494f81ac9a5a117a6 = L.circleMarker(
+                [18.9221,72.8337],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_fac3c6d17a5e4b06b69768a53dc2ba4b = L.popup({maxWidth: '300'});
+
+            
+                var html_4d0a96a3365143d18fc84e5cbd3e10a1 = $('<div id="html_4d0a96a3365143d18fc84e5cbd3e10a1" style="width: 100.0%; height: 100.0%;">Harbour Bar - The Taj Mahal Palace, The Taj Mahal Palace &amp; Tower, Apollo Bunder, Colaba, Mumbai</div>')[0];
+                popup_fac3c6d17a5e4b06b69768a53dc2ba4b.setContent(html_4d0a96a3365143d18fc84e5cbd3e10a1);
+            
+
+            circle_marker_0dc510caf883491494f81ac9a5a117a6.bindPopup(popup_fac3c6d17a5e4b06b69768a53dc2ba4b);
+
+            
+        
+    
+            var circle_marker_b3c644817c6242ac908a72367fc3f2ac = L.circleMarker(
+                [18.9335,72.8249],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_af07d5b05225438686d4d26149fa4c16 = L.popup({maxWidth: '300'});
+
+            
+                var html_efa02b3832fc430b910f8bc2d36631ba = $('<div id="html_efa02b3832fc430b910f8bc2d36631ba" style="width: 100.0%; height: 100.0%;">The Society Restaurant - The Ambassador Hotel, The Ambassador Hotel, Near Marine Drive, V.N. Road, Churchgate, Mumbai</div>')[0];
+                popup_af07d5b05225438686d4d26149fa4c16.setContent(html_efa02b3832fc430b910f8bc2d36631ba);
+            
+
+            circle_marker_b3c644817c6242ac908a72367fc3f2ac.bindPopup(popup_af07d5b05225438686d4d26149fa4c16);
+
+            
+        
+    
+            var circle_marker_cc1ff0046fe0466a971642318ca4f388 = L.circleMarker(
+                [18.9145,72.8212],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_2c41dfa025694903b97fc4ceed78e800 = L.popup({maxWidth: '300'});
+
+            
+                var html_467f39a6eea74a00b3763e0ff8ef32a8 = $('<div id="html_467f39a6eea74a00b3763e0ff8ef32a8" style="width: 100.0%; height: 100.0%;">Thai Pavilion - President, 90, President, Cuffe Parade, Mumbai</div>')[0];
+                popup_2c41dfa025694903b97fc4ceed78e800.setContent(html_467f39a6eea74a00b3763e0ff8ef32a8);
+            
+
+            circle_marker_cc1ff0046fe0466a971642318ca4f388.bindPopup(popup_2c41dfa025694903b97fc4ceed78e800);
+
+            
+        
+    
+            var circle_marker_dc188743fe6d44c4850f76fa70d8a5fe = L.circleMarker(
+                [19.0021,72.8296],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_45512aa25422437bbf41c88a4c1356ca = L.popup({maxWidth: '300'});
+
+            
+                var html_2f591f94a45c42a4a2b254740a052bc4 = $('<div id="html_2f591f94a45c42a4a2b254740a052bc4" style="width: 100.0%; height: 100.0%;">Udipi Shri Krishna, 1 &amp; 2, Madhav Bhavan, Kamala Mills Compound, Senapati Bapat Marg, Lower Parel, Mumbai</div>')[0];
+                popup_45512aa25422437bbf41c88a4c1356ca.setContent(html_2f591f94a45c42a4a2b254740a052bc4);
+            
+
+            circle_marker_dc188743fe6d44c4850f76fa70d8a5fe.bindPopup(popup_45512aa25422437bbf41c88a4c1356ca);
+
+            
+        
+    
+            var circle_marker_f5bd4403e5d74659adfa2c32cfcd5390 = L.circleMarker(
+                [18.9708,72.8048],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_9a8242f4d25f4517883219a389753bf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_e27bc7ce92f74c648f54e1bd0e641250 = $('<div id="html_e27bc7ce92f74c648f54e1bd0e641250" style="width: 100.0%; height: 100.0%;">Snowmans, 63, Opposite Tata Garden, Breach Candy, Mumbai</div>')[0];
+                popup_9a8242f4d25f4517883219a389753bf1.setContent(html_e27bc7ce92f74c648f54e1bd0e641250);
+            
+
+            circle_marker_f5bd4403e5d74659adfa2c32cfcd5390.bindPopup(popup_9a8242f4d25f4517883219a389753bf1);
+
+            
+        
+    
+            var circle_marker_dca97143a8584a608d8c4f4a208ad833 = L.circleMarker(
+                [19.0654,72.8299],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_4dedf32477f74cd29d34ec5d3cdce2b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e3cb0eb4cd642dbbccc947bfbb8020f = $('<div id="html_3e3cb0eb4cd642dbbccc947bfbb8020f" style="width: 100.0%; height: 100.0%;">Goodness To Go by Smoke House Deli , Madhu Milan Building, 33rd Road, Dr Ambedkar Road, Pali Hill, Bandra West, Mumbai</div>')[0];
+                popup_4dedf32477f74cd29d34ec5d3cdce2b4.setContent(html_3e3cb0eb4cd642dbbccc947bfbb8020f);
+            
+
+            circle_marker_dca97143a8584a608d8c4f4a208ad833.bindPopup(popup_4dedf32477f74cd29d34ec5d3cdce2b4);
+
+            
+        
+    
+            var circle_marker_3d8cc0d24b2448c3988275e4c176f771 = L.circleMarker(
+                [19.0617,72.83],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_d4d68612cafe4c5cac18163b17a16e2f = L.popup({maxWidth: '300'});
+
+            
+                var html_211a6d3b8f2b4b94814998a97e6a2cbe = $('<div id="html_211a6d3b8f2b4b94814998a97e6a2cbe" style="width: 100.0%; height: 100.0%;">Indigo Burger Project, 8, Fatima Villa, 29th Road, Pali Mala Road, Pali Hill, Bandra West, Mumbai</div>')[0];
+                popup_d4d68612cafe4c5cac18163b17a16e2f.setContent(html_211a6d3b8f2b4b94814998a97e6a2cbe);
+            
+
+            circle_marker_3d8cc0d24b2448c3988275e4c176f771.bindPopup(popup_d4d68612cafe4c5cac18163b17a16e2f);
+
+            
+        
+    
+            var circle_marker_29d94ed36dbd4bada86cefa049ffdfc4 = L.circleMarker(
+                [19.0629,72.8292],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_bc4a0feafdb24bc8bacde3c74a219a56 = L.popup({maxWidth: '300'});
+
+            
+                var html_6239f67c10fe498091043919aa29e80d = $('<div id="html_6239f67c10fe498091043919aa29e80d" style="width: 100.0%; height: 100.0%;">Cocoaroma, G 2, Jonelia 214, Saint Andrews Road, Pali Hill Market Road, Pali Hill, Bandra West</div>')[0];
+                popup_bc4a0feafdb24bc8bacde3c74a219a56.setContent(html_6239f67c10fe498091043919aa29e80d);
+            
+
+            circle_marker_29d94ed36dbd4bada86cefa049ffdfc4.bindPopup(popup_bc4a0feafdb24bc8bacde3c74a219a56);
+
+            
+        
+    
+            var circle_marker_42d1611ffa424a34bf7f7cd0fc49684b = L.circleMarker(
+                [19.0673,72.8692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_bad4b5ecca4041239bb4740d4cd5f610 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f09cdd20c62432586be76bac2c1b585 = $('<div id="html_7f09cdd20c62432586be76bac2c1b585" style="width: 100.0%; height: 100.0%;">Tuskers - Sofitel, Sofitel Hotel, C 57, Bandra Kurla Complex, Mumbai</div>')[0];
+                popup_bad4b5ecca4041239bb4740d4cd5f610.setContent(html_7f09cdd20c62432586be76bac2c1b585);
+            
+
+            circle_marker_42d1611ffa424a34bf7f7cd0fc49684b.bindPopup(popup_bad4b5ecca4041239bb4740d4cd5f610);
+
+            
+        
+    
+            var circle_marker_5e6ab9c1d0e9496e9b820882c32d2ebf = L.circleMarker(
+                [19.0669,72.8228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_51f01691c16b464eaf03f988e61ec252 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdf226c560c347349046a320fad3fba0 = $('<div id="html_fdf226c560c347349046a320fad3fba0" style="width: 100.0%; height: 100.0%;">Joseph&#39;s Kitchen, 29th Road, Prarthana, Pali Hill, Bandra West, Mumbai</div>')[0];
+                popup_51f01691c16b464eaf03f988e61ec252.setContent(html_fdf226c560c347349046a320fad3fba0);
+            
+
+            circle_marker_5e6ab9c1d0e9496e9b820882c32d2ebf.bindPopup(popup_51f01691c16b464eaf03f988e61ec252);
+
+            
+        
+    
+            var circle_marker_09cd688db79f4df9a31e5a80c39eb8a6 = L.circleMarker(
+                [19.0672,72.8675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_c8eb924d40d247a9a828859bf62b5ff5 = L.popup({maxWidth: '300'});
+
+            
+                var html_04cc0e380d0144d082551b91c26d6529 = $('<div id="html_04cc0e380d0144d082551b91c26d6529" style="width: 100.0%; height: 100.0%;">O22 - Trident, Trident Hotel, C 56, G Block, Bandra Kurla Complex, Mumbai</div>')[0];
+                popup_c8eb924d40d247a9a828859bf62b5ff5.setContent(html_04cc0e380d0144d082551b91c26d6529);
+            
+
+            circle_marker_09cd688db79f4df9a31e5a80c39eb8a6.bindPopup(popup_c8eb924d40d247a9a828859bf62b5ff5);
+
+            
+        
+    
+            var circle_marker_7dd1a377b45a4e09a2a27e9005f961e0 = L.circleMarker(
+                [19.1036,72.8269],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_d0e983f75c3f4f53a7b289108bdbf52a = L.popup({maxWidth: '300'});
+
+            
+                var html_81e608786a6b428eaaf90aca4b1b36dd = $('<div id="html_81e608786a6b428eaaf90aca4b1b36dd" style="width: 100.0%; height: 100.0%;">The Homemade Cafe &amp; Bar, Juhu Hotel, Near Petrol Pump, Juhu Tara Road, Juhu, Mumbai</div>')[0];
+                popup_d0e983f75c3f4f53a7b289108bdbf52a.setContent(html_81e608786a6b428eaaf90aca4b1b36dd);
+            
+
+            circle_marker_7dd1a377b45a4e09a2a27e9005f961e0.bindPopup(popup_d0e983f75c3f4f53a7b289108bdbf52a);
+
+            
+        
+    
+            var circle_marker_9d502bd3ebaf4761b5c634a71786c5af = L.circleMarker(
+                [19.0576,72.8478],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_35ab5c0da81d44c7baef98710d6e5394 = L.popup({maxWidth: '300'});
+
+            
+                var html_95fff6ede59b46fcbf548aa506c0755e = $('<div id="html_95fff6ede59b46fcbf548aa506c0755e" style="width: 100.0%; height: 100.0%;">Maratha Darbar, Nishigandha CHS, Opposite MIG Club, Gandhi Nagar, Bandra East, Mumbai</div>')[0];
+                popup_35ab5c0da81d44c7baef98710d6e5394.setContent(html_95fff6ede59b46fcbf548aa506c0755e);
+            
+
+            circle_marker_9d502bd3ebaf4761b5c634a71786c5af.bindPopup(popup_35ab5c0da81d44c7baef98710d6e5394);
+
+            
+        
+    
+            var circle_marker_31a85282282645f3a48ab1a609d7ad30 = L.circleMarker(
+                [19.1191,72.8454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_0232c296915e4fb1b04550209afff28f = L.popup({maxWidth: '300'});
+
+            
+                var html_73cef2704c2b4cb2ba07171296d7e4eb = $('<div id="html_73cef2704c2b4cb2ba07171296d7e4eb" style="width: 100.0%; height: 100.0%;">Merwans Cake Stop, 9/12, Madhav Nagar, SV Road, Near Andheri West Station, Mumbai</div>')[0];
+                popup_0232c296915e4fb1b04550209afff28f.setContent(html_73cef2704c2b4cb2ba07171296d7e4eb);
+            
+
+            circle_marker_31a85282282645f3a48ab1a609d7ad30.bindPopup(popup_0232c296915e4fb1b04550209afff28f);
+
+            
+        
+    
+            var circle_marker_556ac48fb4d14d8bb3a5a0bbcc548648 = L.circleMarker(
+                [19.0293,72.8398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_2045e925e02746379c20c38ec813b466 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f5c06c2db5f4ff4b9ac6ae6f1ed8125 = $('<div id="html_4f5c06c2db5f4ff4b9ac6ae6f1ed8125" style="width: 100.0%; height: 100.0%;">The Breakfast Studio, Shop 3, Nandadeep CHS, 5th Road, Pandurang Naik Marg, Dadar Shivaji Park, Mumbai</div>')[0];
+                popup_2045e925e02746379c20c38ec813b466.setContent(html_4f5c06c2db5f4ff4b9ac6ae6f1ed8125);
+            
+
+            circle_marker_556ac48fb4d14d8bb3a5a0bbcc548648.bindPopup(popup_2045e925e02746379c20c38ec813b466);
+
+            
+        
+    
+            var circle_marker_bd749126d07d401d8787960709c74712 = L.circleMarker(
+                [19.1363,72.8352],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_e10d8c754d8b4933a7b5fba3b56330c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_ecbf21db3f124b668bd945c75f9a364d = $('<div id="html_ecbf21db3f124b668bd945c75f9a364d" style="width: 100.0%; height: 100.0%;">Fitzup Cafe, 2nd Floor, Multifit Gym, Sharyans Audeus, Above Hard Rock Cafe, Fun Republic Road Andheri Lokhandwala, Andheri West, Mumbai</div>')[0];
+                popup_e10d8c754d8b4933a7b5fba3b56330c0.setContent(html_ecbf21db3f124b668bd945c75f9a364d);
+            
+
+            circle_marker_bd749126d07d401d8787960709c74712.bindPopup(popup_e10d8c754d8b4933a7b5fba3b56330c0);
+
+            
+        
+    
+            var circle_marker_d4144cfd715443feb975c2bb36ef010b = L.circleMarker(
+                [19.1484,72.8315],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_1bb9e40e1b5742feba298a2c0b5b6acb = L.popup({maxWidth: '300'});
+
+            
+                var html_03a03d7158204c589186f998f9c6bff8 = $('<div id="html_03a03d7158204c589186f998f9c6bff8" style="width: 100.0%; height: 100.0%;">Woodside Inn, New Link Plaza, Next to Oshiwara Police Station, Oshiwara, Andheri West, Mumbai</div>')[0];
+                popup_1bb9e40e1b5742feba298a2c0b5b6acb.setContent(html_03a03d7158204c589186f998f9c6bff8);
+            
+
+            circle_marker_d4144cfd715443feb975c2bb36ef010b.bindPopup(popup_1bb9e40e1b5742feba298a2c0b5b6acb);
+
+            
+        
+    
+            var circle_marker_67860b3811bc43f4af914be4b9e3c99b = L.circleMarker(
+                [19.1378,72.8458],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_0bb17d314ed74847858fa7a711ebf3f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_3842bf7cd1e54a26a408f3b566bee1d8 = $('<div id="html_3842bf7cd1e54a26a408f3b566bee1d8" style="width: 100.0%; height: 100.0%;">Celejor, Shop 8/A, E.E Heights, S.V Road, Jogeshwari, Mumbai</div>')[0];
+                popup_0bb17d314ed74847858fa7a711ebf3f0.setContent(html_3842bf7cd1e54a26a408f3b566bee1d8);
+            
+
+            circle_marker_67860b3811bc43f4af914be4b9e3c99b.bindPopup(popup_0bb17d314ed74847858fa7a711ebf3f0);
+
+            
+        
+    
+            var circle_marker_e0d2afe08a4848758cf56f8071ff054f = L.circleMarker(
+                [19.1728,72.8607],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_646eeb90f6fa4486a65171cd5306d351 = L.popup({maxWidth: '300'});
+
+            
+                var html_4abf61c7902440b0be033f3fb574d447 = $('<div id="html_4abf61c7902440b0be033f3fb574d447" style="width: 100.0%; height: 100.0%;">Healthy Grains, PX 58/19/24, Sunder Chawl, Opposite Dindoshi Signal Highway, ITT Bhatti, Goregaon East, Mumbai</div>')[0];
+                popup_646eeb90f6fa4486a65171cd5306d351.setContent(html_4abf61c7902440b0be033f3fb574d447);
+            
+
+            circle_marker_e0d2afe08a4848758cf56f8071ff054f.bindPopup(popup_646eeb90f6fa4486a65171cd5306d351);
+
+            
+        
+    
+            var circle_marker_a0f332b15fd549b99bc57116f1630fe1 = L.circleMarker(
+                [19.1429,72.8246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_0c48012451bc467d8db6a3512c2c0497 = L.popup({maxWidth: '300'});
+
+            
+                var html_40f676ad287a4c9086c918f186712e1f = $('<div id="html_40f676ad287a4c9086c918f186712e1f" style="width: 100.0%; height: 100.0%;">Dale&#39;s Eden Cake Shop, Shop 20, Main Market, 2nd Cross Road, Near Rajput Dairy, Sunswept Building, Lokhandwala Complex, Andheri Lokhandwala, Andheri West, Mumbai</div>')[0];
+                popup_0c48012451bc467d8db6a3512c2c0497.setContent(html_40f676ad287a4c9086c918f186712e1f);
+            
+
+            circle_marker_a0f332b15fd549b99bc57116f1630fe1.bindPopup(popup_0c48012451bc467d8db6a3512c2c0497);
+
+            
+        
+    
+            var circle_marker_8cd0059a3dc84d9c8d89966e5412c43f = L.circleMarker(
+                [19.1514,72.8323],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_1a4d322a05f647968862fc0b551b4202 = L.popup({maxWidth: '300'});
+
+            
+                var html_3964381e077c4d2b85016182ba4348cd = $('<div id="html_3964381e077c4d2b85016182ba4348cd" style="width: 100.0%; height: 100.0%;">Icekraft, 5, Meera CHS, Opposite Windsor Grande Residences, Oshiwara, Andheri West, Mumbai</div>')[0];
+                popup_1a4d322a05f647968862fc0b551b4202.setContent(html_3964381e077c4d2b85016182ba4348cd);
+            
+
+            circle_marker_8cd0059a3dc84d9c8d89966e5412c43f.bindPopup(popup_1a4d322a05f647968862fc0b551b4202);
+
+            
+        
+    
+            var circle_marker_d8db2d3b12694d73be1b0166372e248e = L.circleMarker(
+                [19.1168,72.9102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_34087332a6234dca959507f7c2999aa2 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0a61662acbf447499a1c6cf35b829f6 = $('<div id="html_a0a61662acbf447499a1c6cf35b829f6" style="width: 100.0%; height: 100.0%;">Chandu Halwai, D-Mart, Ground Floor, Spectra Building, High Street Corner, Hiranandani Garden, Powai, Mumbai</div>')[0];
+                popup_34087332a6234dca959507f7c2999aa2.setContent(html_a0a61662acbf447499a1c6cf35b829f6);
+            
+
+            circle_marker_d8db2d3b12694d73be1b0166372e248e.bindPopup(popup_34087332a6234dca959507f7c2999aa2);
+
+            
+        
+    
+            var circle_marker_d970e35970c64e729d6234989c20a59b = L.circleMarker(
+                [19.1367,72.8292],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_d65a8184243449ffb59f93b7eb966cee = L.popup({maxWidth: '300'});
+
+            
+                var html_f7d07e2e0ee34efab02960b63e585514 = $('<div id="html_f7d07e2e0ee34efab02960b63e585514" style="width: 100.0%; height: 100.0%;">Eagle Boys Pizzeria &amp; Cafe, Shop 11, Mayfair CHSL, Sundervan, Near Laxmi Industrial Estate, Andheri Lokhandwala, Andheri West, Mumbai</div>')[0];
+                popup_d65a8184243449ffb59f93b7eb966cee.setContent(html_f7d07e2e0ee34efab02960b63e585514);
+            
+
+            circle_marker_d970e35970c64e729d6234989c20a59b.bindPopup(popup_d65a8184243449ffb59f93b7eb966cee);
+
+            
+        
+    
+            var circle_marker_0b87d3c9195a4f85b3cc2554e233e843 = L.circleMarker(
+                [19.0585,73.0048],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_810bc74ec3344941a29a2c6bf85f86ae = L.popup({maxWidth: '300'});
+
+            
+                var html_8c86ce46ce5f4bc0b8dc0b26a6d04ce6 = $('<div id="html_8c86ce46ce5f4bc0b8dc0b26a6d04ce6" style="width: 100.0%; height: 100.0%;">Alazne Cakes N Confectionaries, H/4, 503, Moraj Residency, Opposite Palm Beach Road, Sanpada Sector 16, Sanpada, Navi Mumbai</div>')[0];
+                popup_810bc74ec3344941a29a2c6bf85f86ae.setContent(html_8c86ce46ce5f4bc0b8dc0b26a6d04ce6);
+            
+
+            circle_marker_0b87d3c9195a4f85b3cc2554e233e843.bindPopup(popup_810bc74ec3344941a29a2c6bf85f86ae);
+
+            
+        
+    
+            var circle_marker_a4b0f2ab29e14898bd93768691b6b1cc = L.circleMarker(
+                [19.1352,72.8331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_cca0e9513ebd4c8cbf1d313dc367cbf5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ed6e03c23a7c497fbbb7f6be10bf6dac = $('<div id="html_ed6e03c23a7c497fbbb7f6be10bf6dac" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, 18, Ground Floor, Fun Republic Mall, Veera Desai Road, Shah Industrial Estate, Veera Desai Area, Mumbai</div>')[0];
+                popup_cca0e9513ebd4c8cbf1d313dc367cbf5.setContent(html_ed6e03c23a7c497fbbb7f6be10bf6dac);
+            
+
+            circle_marker_a4b0f2ab29e14898bd93768691b6b1cc.bindPopup(popup_cca0e9513ebd4c8cbf1d313dc367cbf5);
+
+            
+        
+    
+            var circle_marker_cc1ee61eed924139bd9d42c1396c3a21 = L.circleMarker(
+                [19.1339,72.8139],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_f598bfbfe6e54b8caee51acbe88cd907 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7f4364ebaf04157ba6c5c78faf11879 = $('<div id="html_f7f4364ebaf04157ba6c5c78faf11879" style="width: 100.0%; height: 100.0%;">Sameer&#39;s Cafe, Banglow 121, JP Road, Aram Nagar Part 2, Near Physi O Flex Gym, Versova, Andheri West, Mumbai</div>')[0];
+                popup_f598bfbfe6e54b8caee51acbe88cd907.setContent(html_f7f4364ebaf04157ba6c5c78faf11879);
+            
+
+            circle_marker_cc1ee61eed924139bd9d42c1396c3a21.bindPopup(popup_f598bfbfe6e54b8caee51acbe88cd907);
+
+            
+        
+    
+            var circle_marker_a7e67a724d84488c82c90706ec70f82b = L.circleMarker(
+                [19.1179,72.9111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_3fdad7d71d474006ae42264e23e1672c = L.popup({maxWidth: '300'});
+
+            
+                var html_0021b395ee3d456591c5c37e9ec2f04c = $('<div id="html_0021b395ee3d456591c5c37e9ec2f04c" style="width: 100.0%; height: 100.0%;">Tiara Restaurant &amp; Bar - Meluha The Fern, Meluha The Fern, Ecotel Hotel, Central Avenue, Hiranandani Gardens, Powai, Mumbai</div>')[0];
+                popup_3fdad7d71d474006ae42264e23e1672c.setContent(html_0021b395ee3d456591c5c37e9ec2f04c);
+            
+
+            circle_marker_a7e67a724d84488c82c90706ec70f82b.bindPopup(popup_3fdad7d71d474006ae42264e23e1672c);
+
+            
+        
+    
+            var circle_marker_3830f10e4e524897847ff3e157d9237b = L.circleMarker(
+                [19.1264,72.8205],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_8e23e2d7e25840ff867cb4e944cff2e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_129e1c38e4144c96800e6f187840e89a = $('<div id="html_129e1c38e4144c96800e6f187840e89a" style="width: 100.0%; height: 100.0%;">Dope Coffee Roasters, 1311/2, Plot B, Ground Floor, Savitribai Jotiba Phule Road, Versova, Andheri West, Mumabi</div>')[0];
+                popup_8e23e2d7e25840ff867cb4e944cff2e3.setContent(html_129e1c38e4144c96800e6f187840e89a);
+            
+
+            circle_marker_3830f10e4e524897847ff3e157d9237b.bindPopup(popup_8e23e2d7e25840ff867cb4e944cff2e3);
+
+            
+        
+    
+            var circle_marker_d00f89e1c9f3445bae0226e3b505c7d7 = L.circleMarker(
+                [19.1733,72.8356],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_52de13526f1f4f1390bcc6a07e8cf179 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc5a134bfc954448a30853fdaa87dacd = $('<div id="html_cc5a134bfc954448a30853fdaa87dacd" style="width: 100.0%; height: 100.0%;">Cookie Man, G53, Inorbit Mall, Link Road, Malad West, Mumbai</div>')[0];
+                popup_52de13526f1f4f1390bcc6a07e8cf179.setContent(html_cc5a134bfc954448a30853fdaa87dacd);
+            
+
+            circle_marker_d00f89e1c9f3445bae0226e3b505c7d7.bindPopup(popup_52de13526f1f4f1390bcc6a07e8cf179);
+
+            
+        
+    
+            var circle_marker_cab0943090a24aad9551b58a81b2ca96 = L.circleMarker(
+                [19.2307,72.9774],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_2bfc8d845b3a4bf9b1bbe6c575b2a677 = L.popup({maxWidth: '300'});
+
+            
+                var html_5aa346e57bca4c619111c00ed330fc70 = $('<div id="html_5aa346e57bca4c619111c00ed330fc70" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, S13, 2nd Floor, R Mall, Majiwada, Thane West, Thane</div>')[0];
+                popup_2bfc8d845b3a4bf9b1bbe6c575b2a677.setContent(html_5aa346e57bca4c619111c00ed330fc70);
+            
+
+            circle_marker_cab0943090a24aad9551b58a81b2ca96.bindPopup(popup_2bfc8d845b3a4bf9b1bbe6c575b2a677);
+
+            
+        
+    
+            var circle_marker_29b63f4e88c244d38875b4f25fc64cd8 = L.circleMarker(
+                [19.2266,72.9705],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_9c66f058cde14e8abf4b0a629a75d1ec = L.popup({maxWidth: '300'});
+
+            
+                var html_8f7200b93ce54aafbb1441c2d582da0d = $('<div id="html_8f7200b93ce54aafbb1441c2d582da0d" style="width: 100.0%; height: 100.0%;">Cafe Choco Craze, Shop 14, Block 1, Hiranandani Medows, Behind Sarawak Bank, Vasant Vihar, Thane West, Thane</div>')[0];
+                popup_9c66f058cde14e8abf4b0a629a75d1ec.setContent(html_8f7200b93ce54aafbb1441c2d582da0d);
+            
+
+            circle_marker_29b63f4e88c244d38875b4f25fc64cd8.bindPopup(popup_9c66f058cde14e8abf4b0a629a75d1ec);
+
+            
+        
+    
+            var circle_marker_8afe414624e64b21b396a0bc3fb08ce2 = L.circleMarker(
+                [19.2558,72.9812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_76f5ea49bd9e459aba9612bc06c1f72e = L.popup({maxWidth: '300'});
+
+            
+                var html_ba6709f794e04485b11449c26f38eb2b = $('<div id="html_ba6709f794e04485b11449c26f38eb2b" style="width: 100.0%; height: 100.0%;">Portico, Hiranandani Club House, Patlipada, GB Road, Hiranandani Estate, Thane West</div>')[0];
+                popup_76f5ea49bd9e459aba9612bc06c1f72e.setContent(html_ba6709f794e04485b11449c26f38eb2b);
+            
+
+            circle_marker_8afe414624e64b21b396a0bc3fb08ce2.bindPopup(popup_76f5ea49bd9e459aba9612bc06c1f72e);
+
+            
+        
+    
+            var circle_marker_902f9474fbac4883ab844c0c0815a1dd = L.circleMarker(
+                [19.2183,73.0879],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_fbddfc799a624f6e9ba92d5cfb705215 = L.popup({maxWidth: '300'});
+
+            
+                var html_60e118027a5741c79b429a3d0dc26d2f = $('<div id="html_60e118027a5741c79b429a3d0dc26d2f" style="width: 100.0%; height: 100.0%;">Kailash Mandir Lassi and Sweets, 1, Ground Floor, Pandit Jawaharlal Nehru Road, Dombivali East, Mumbai</div>')[0];
+                popup_fbddfc799a624f6e9ba92d5cfb705215.setContent(html_60e118027a5741c79b429a3d0dc26d2f);
+            
+
+            circle_marker_902f9474fbac4883ab844c0c0815a1dd.bindPopup(popup_fbddfc799a624f6e9ba92d5cfb705215);
+
+            
+        
+    
+            var circle_marker_cb07c9a517074ea0a771818dd375e123 = L.circleMarker(
+                [19.2132,72.8414],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_fd94c95b9baa4b0aadcefe35a4b1254e = L.popup({maxWidth: '300'});
+
+            
+                var html_791a94e73b604aad94c5c8d552f9caa0 = $('<div id="html_791a94e73b604aad94c5c8d552f9caa0" style="width: 100.0%; height: 100.0%;">Jain Sweet &amp; Bhelpuri House, Shop 23 &amp; 24, Raj Arcade, Mahaveer Nagar, Kandivali West, Mumbai</div>')[0];
+                popup_fd94c95b9baa4b0aadcefe35a4b1254e.setContent(html_791a94e73b604aad94c5c8d552f9caa0);
+            
+
+            circle_marker_cb07c9a517074ea0a771818dd375e123.bindPopup(popup_fd94c95b9baa4b0aadcefe35a4b1254e);
+
+            
+        
+    
+            var circle_marker_5f8a5189c77f49218fe59ce03538b9aa = L.circleMarker(
+                [18.9932,73.1158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_28cee92b205b4c9398b3e9fa7fbe8953 = L.popup({maxWidth: '300'});
+
+            
+                var html_719292b2cbab45c8b346ae3c63d9b54e = $('<div id="html_719292b2cbab45c8b346ae3c63d9b54e" style="width: 100.0%; height: 100.0%;">Starbucks Coffee, Ground Floor, Orion Mall, Near ST, Panvel, Old Panvel, Navi Mumbai</div>')[0];
+                popup_28cee92b205b4c9398b3e9fa7fbe8953.setContent(html_719292b2cbab45c8b346ae3c63d9b54e);
+            
+
+            circle_marker_5f8a5189c77f49218fe59ce03538b9aa.bindPopup(popup_28cee92b205b4c9398b3e9fa7fbe8953);
+
+            
+        
+    
+            var circle_marker_5b4e871c2d3d4995a1226e73d856daff = L.circleMarker(
+                [19.0032,73.1169],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_0708bee579354443bb9f03ef2a2e0d80 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f02142587cd4d61860a33aa1f1204f2 = $('<div id="html_5f02142587cd4d61860a33aa1f1204f2" style="width: 100.0%; height: 100.0%;">Pizza Hut, Shop 1 - 5, Ground Floor, Plot 50 &amp; 51, Sector 4, New Panvel, Navi Mumbai</div>')[0];
+                popup_0708bee579354443bb9f03ef2a2e0d80.setContent(html_5f02142587cd4d61860a33aa1f1204f2);
+            
+
+            circle_marker_5b4e871c2d3d4995a1226e73d856daff.bindPopup(popup_0708bee579354443bb9f03ef2a2e0d80);
+
+            
+        
+    
+            var circle_marker_64da3ad8188d458ca0a7767333482725 = L.circleMarker(
+                [19.2192,73.0904],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_a14a95da375b47fd9617253c611c893a = L.popup({maxWidth: '300'});
+
+            
+                var html_b9bce5d296134d32a200a139485b5e88 = $('<div id="html_b9bce5d296134d32a200a139485b5e88" style="width: 100.0%; height: 100.0%;">New Modern Cafe, Gala 1 &amp; 15, Chirag Apartment, Phade Road, Dombivali East, Mumbai</div>')[0];
+                popup_a14a95da375b47fd9617253c611c893a.setContent(html_b9bce5d296134d32a200a139485b5e88);
+            
+
+            circle_marker_64da3ad8188d458ca0a7767333482725.bindPopup(popup_a14a95da375b47fd9617253c611c893a);
+
+            
+        
+    
+            var circle_marker_f5fb994103bb478db1be9a7b7e7afc5a = L.circleMarker(
+                [18.9989,73.1232],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_5f89899ad2c547398e8bffe32bb4df39 = L.popup({maxWidth: '300'});
+
+            
+                var html_22800c3584ac4ed49343eb356f21a882 = $('<div id="html_22800c3584ac4ed49343eb356f21a882" style="width: 100.0%; height: 100.0%;">Shubham, Shop 35 - 40, C-Wing, Shubham Colony, Sector 11, New Panvel, Navi Mumbai</div>')[0];
+                popup_5f89899ad2c547398e8bffe32bb4df39.setContent(html_22800c3584ac4ed49343eb356f21a882);
+            
+
+            circle_marker_f5fb994103bb478db1be9a7b7e7afc5a.bindPopup(popup_5f89899ad2c547398e8bffe32bb4df39);
+
+            
+        
+    
+            var circle_marker_847d698ea486471f8f9f600ab16441d8 = L.circleMarker(
+                [19.2193,73.0898],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_18a990d702854238a8b3dc3351db7b1d = L.popup({maxWidth: '300'});
+
+            
+                var html_8bf20b9afdf9486cbc172583d99037ca = $('<div id="html_8bf20b9afdf9486cbc172583d99037ca" style="width: 100.0%; height: 100.0%;">KV Chinese Corner, Shop 1, Vishal Apartments, Phate Ali Road, Dombivli East, Mumbai</div>')[0];
+                popup_18a990d702854238a8b3dc3351db7b1d.setContent(html_8bf20b9afdf9486cbc172583d99037ca);
+            
+
+            circle_marker_847d698ea486471f8f9f600ab16441d8.bindPopup(popup_18a990d702854238a8b3dc3351db7b1d);
+
+            
+        
+    
+            var circle_marker_d1a7002ece24440f90ae3f1e787a2de6 = L.circleMarker(
+                [19.0043,73.1165],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_952e2111d5bb43efbecd5ee37113d5f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f78ecceb856a4cc1989ed1ad598116d2 = $('<div id="html_f78ecceb856a4cc1989ed1ad598116d2" style="width: 100.0%; height: 100.0%;">Om Sai Fast Food Centre, Shop 22, Hari Madhur Milan, Near D-Mart, Sector 5, New Panvel, Navi Mumbai</div>')[0];
+                popup_952e2111d5bb43efbecd5ee37113d5f2.setContent(html_f78ecceb856a4cc1989ed1ad598116d2);
+            
+
+            circle_marker_d1a7002ece24440f90ae3f1e787a2de6.bindPopup(popup_952e2111d5bb43efbecd5ee37113d5f2);
+
+            
+        
+    
+            var circle_marker_04c10ec7fabf41f9a31fb2a13b14cabc = L.circleMarker(
+                [18.9903,73.1251],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_7acb01487fce4e8694310c9f649a5602 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac84e9531cb54e4e9f9cd1e50beb0608 = $('<div id="html_ac84e9531cb54e4e9f9cd1e50beb0608" style="width: 100.0%; height: 100.0%;">Pop&#39;ins, Shop 4, 5, Sai Plaza cooperative Housing Society, Sector 15A, Vijay Marg, Beside Chembur Nagarik Sahakari Bank, New Panvel, Navi Mumbai</div>')[0];
+                popup_7acb01487fce4e8694310c9f649a5602.setContent(html_ac84e9531cb54e4e9f9cd1e50beb0608);
+            
+
+            circle_marker_04c10ec7fabf41f9a31fb2a13b14cabc.bindPopup(popup_7acb01487fce4e8694310c9f649a5602);
+
+            
+        
+    
+            var circle_marker_8dd5cb4e289e430b8dfd24d52bbb4fb0 = L.circleMarker(
+                [19.110937142857143,72.91484857142858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_3a2bb0bba51c4679bea7b16ad8057d49 = L.popup({maxWidth: '300'});
+
+            
+                var html_02ff7b718971493bb141538b4b968324 = $('<div id="html_02ff7b718971493bb141538b4b968324" style="width: 100.0%; height: 100.0%;">Cluster: 0</div>')[0];
+                popup_3a2bb0bba51c4679bea7b16ad8057d49.setContent(html_02ff7b718971493bb141538b4b968324);
+            
+
+            circle_marker_8dd5cb4e289e430b8dfd24d52bbb4fb0.bindPopup(popup_3a2bb0bba51c4679bea7b16ad8057d49);
+
+            
+        
+    
+            var circle_marker_7d81570a82e249f590159860724dde67 = L.circleMarker(
+                [19.00375,72.8546],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_69464f5b9b894f129d5cd822513924bf);
+            
+    
+            var popup_1b4ddf59cd964a399b299cc3db93640a = L.popup({maxWidth: '300'});
+
+            
+                var html_4e2246c8a59e43de9047b70d26388bd3 = $('<div id="html_4e2246c8a59e43de9047b70d26388bd3" style="width: 100.0%; height: 100.0%;">Cluster: 1</div>')[0];
+                popup_1b4ddf59cd964a399b299cc3db93640a.setContent(html_4e2246c8a59e43de9047b70d26388bd3);
+            
+
+            circle_marker_7d81570a82e249f590159860724dde67.bindPopup(popup_1b4ddf59cd964a399b299cc3db93640a);
+
+            
+        
+</script>
