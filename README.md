@@ -6,7 +6,7 @@ The repository includes code for the project of the Applied Data Science Capston
 The project includes **exploring venues in Mumbai, India using datasets from two APIs - Foursquare API and Zomato API**. The aim of this project is to allow any visitor to select from a range of venues based on their venue rating and average price preferences.
 - [Report](https://github.com/Rahil-Merchant/Coursera_Capstone/blob/master/Coursera%20Capstone%20Report%20PDF.pdf)
 - [Notebook](https://github.com/Rahil-Merchant/Coursera_Capstone/blob/master/Exploring%20venues%20in%20Mumbai.ipynb)
-- [Presentation]()
+- [Presentation](https://github.com/Rahil-Merchant/Coursera_Capstone/blob/master/Exploring%20venues%20in%20Mumbai%2C%20India.pdf)
 
 ### Set up
 1. Clone the repository
