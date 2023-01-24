@@ -1,4 +1,5 @@
-# Data Science Capstone Project
+# Data Analysis and Exploration of Venues in Mumbai, India
+
 The repository includes code for the project of the Applied Data Science Capstone course on Coursera.
 
 
